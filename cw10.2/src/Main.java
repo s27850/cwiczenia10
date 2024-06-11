@@ -66,7 +66,7 @@ public class Main {
         HashMap<Integer, String> itemHashListFirst = new HashMap<>();
 
         for (Item item : items2) {
-            itemsHashMap.put(item.getId(), item.getName());
+            itemHashListFirst.put(item.getId(), item.getName());
         }
 
         for (Map.Entry<Integer, String> entry : itemHashListFirst.entrySet()) {
